@@ -1,20 +1,14 @@
 nagios-plugins-osrm
 ===================
 
-Nagios plugins for osrm
+Nagios plugins for osrm.
+Taken from https://github.com/rodo/nagios-plugins-osrm and adapted.
 
 Requirements
 ============
 
-All commands uses the **check_http** standard command, except
-**check_osrm_viaroute_result** which uses **check_json** from
-https://github.com/c-kr/check_json.
-
-
 Usage
 =====
-
-* check_osrm!PORT
 
 * check_osrm_hello!PORT
 
